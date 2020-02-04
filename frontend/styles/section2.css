@@ -1,0 +1,43 @@
+.table-section {
+  background-color: #1c1f29;
+  min-height: 66vh;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 96%;
+  margin-top: 2.4vh;
+  
+}
+
+
+td, th {
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+
+th{
+  background-color: #111522;
+  height: 6vh;
+  color: white;
+  font-size: 2vh;
+}
+td{
+  height: 4vh;
+  font-size: 1.8vh;
+}
+
+
+tr:nth-child(even) {
+  background-color: #000;
+}
+th:nth-child(1), td:nth-child(1) {
+  padding-left: 2vw;
+}
